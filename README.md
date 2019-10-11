@@ -1,17 +1,21 @@
-==========================================
-Bike Sharing Dataset
-==========================================
+#TryCatch 2019 - Data Science Workshop
 
-	- README.md
-	- hour.csv : bike sharing counts aggregated on hourly basis. Records: 17379 hours
-	- day.csv - bike sharing counts aggregated on daily basis. Records: 731 days
+TryCatch is an event organized by WiCS (Women in CS - SFU) for high school girls. (https://trycatch.cs.sfu.ca/)  
 
+## Data Science Workshop
+Authors: Raquel Aoki and Sashini Herath  
+References: Professor Greg Baker class notes    
+
+### Exercise 1 - Pup Inflation (Analysing Tweets)
+
+This question is heavily inspired by David H. Montgomery's Pup Inflation post. His analysis is an excellent data science task, and we will ask the same question here: has there been grade inflation on the @dog_rates Twitter, which rates the cuteness of users' dog pictures?
+
+### Exercise 2 - Bike Sharing Dataset
+hour.csv : bike sharing counts aggregated on hourly basis. Records: 17379 hours  
+day.csv - bike sharing counts aggregated on daily basis. Records: 731 days  
 	
-=========================================
-Dataset characteristics
-=========================================	
 Both hour.csv and day.csv have the following fields, except hr which is not available in day.csv
-	
+
 	- instant: record index
 	- dteday : date
 	- season : season (1:springer, 2:summer, 3:fall, 4:winter)
@@ -33,3 +37,4 @@ Both hour.csv and day.csv have the following fields, except hr which is not avai
 	- casual: count of casual users
 	- registered: count of registered users
 	- cnt: count of total rental bikes including both casual and registered
+
